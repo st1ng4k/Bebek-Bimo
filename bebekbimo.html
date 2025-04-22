@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bebek Bimo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-orange-50 text-black-800">
+
+  <header class="bg-green-800 text-black py-6 text-center">
+    <h1 class="text-3xl font-bold">Bebek Bimo</h1>
+    <nav class="mt-2">
+      <a href="#menu" class="mx-4 hover:underline">Menu</a>
+      <a href="#tentang" class="mx-4 hover:underline">Tentang</a>
+      <a href="#reservasi" class="mx-4 hover:underline">Reservasi</a>
+      <a href="#kontak" class="mx-4 hover:underline">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="h-96 bg-cover bg-center flex items-center justify-center text-black text-4xl font-bold" style="background-image: url('https://source.unsplash.com/1600x600/?fried-duck')">
+    Bebek & Ayam Bimo Spesialis Bebek & Ayam Kampung
+  </section>
+
+  <section id="menu" class="py-12 px-4 text-center">
+    <h2 class="text-2xl font-bold mb-6">Menu</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-xl shadow p-6">
+        <h3 class="text-xl font-semibold text-orange-800">Paket Bebek Goreng Bimo</h3>
+        <p class="my-2">Gurih, renyah, dengan sambal 3 macam.</p>
+        <strong>Rp 35000</strong>
+      </div>
+      <div class="bg-white rounded-xl shadow p-6">
+        <h3 class="text-xl font-semibold text-orange-800">Paket Ayam Goreng Bimo</h3>
+        <p class="my-2">Gurih, Rennyah, dengan sambal 3 macam</p>
+        <strong>Rp 35.000</strong>
+      </div>
+      <div class="bg-white rounded-xl shadow p-6">
+        <h3 class="text-xl font-semibold text-black-800">Es Jeruk Segar</h3>
+        <p class="my-2">Jeruk peras asli, dingin menyegarkan.</p>
+        <strong>Rp 10.000</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang" class="py-12 px-4 bg-black-100 text-center">
+    <h2 class="text-2xl font-bold mb-4">Tentang Bebek Bimo</h2>
+    <p class="max-w-2xl mx-auto">Kami menyajikan bebek dan ayam khas Indonesia dengan resep keluarga yang telah diwariskan turun-temurun. Rasa autentik dan pelayanan hangat adalah prioritas kami.</p>
+  </section>
+
+  <section id="reservasi" class="py-12 px-4 text-center">
+    <h2 class="text-2xl font-bold mb-6">Reservasi Meja</h2>
+    <form class="max-w-lg mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8">
+      <div class="mb-4">
+        <label class="block text-left mb-2">Nama</label>
+        <input type="text" class="w-full border rounded p-2" placeholder="Nama Lengkap">
+      </div>
+      <div class="mb-4">
+        <label class="block text-left mb-2">Nomor HP</label>
+        <input type="text" class="w-full border rounded p-2" placeholder="08xxxxxxxxxx">
+      </div>
+      <div class="mb-4">
+        <label class="block text-left mb-2">Tanggal</label>
+        <input type="date" class="w-full border rounded p-2">
+      </div>
+      <div class="mb-6">
+        <label class="block text-left mb-2">Jumlah Orang</label>
+        <input type="number" min="1" class="w-full border rounded p-2">
+      </div>
+      <button type="submit" class="bg-orange-700 hover:bg-orange-800 text-white font-bold py-2 px-4 rounded">
+        Pesan Sekarang
+      </button>
+    </form>
+  </section>
+
+  <section id="kontak" class="py-12 px-4 text-center">
+    <h2 class="text-2xl font-bold mb-4">Hubungi Kami</h2>
+    <p class="mb-2">Alamat: Festive Garden No.73, Jl. Grand Wisata No.73</p>
+    <p class="mb-2">Telepon: +62 899-1589-164</p>
+    <p class="mb-6">Email: bebekbimo@gmail.com</p>
+    <div class="flex justify-center">
+      <iframe src="https://www.google.com/maps/place/Bebek+Bimo+Grand+Wisata/@-6.2799855,107.0444008,19z/data=!3m1!4b1!4m6!3m5!1s0x2e698f99ae831641:0x83caa36def882555!8m2!3d-6.2799868!4d107.0450445!16s%2Fg%2F11srwq7c4f?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer class="bg-orange-800 text-white py-6 text-center">
+    &copy; 2025 Bebek Bimo. Rasa Khas, Harga Bersahabat.
+  </footer>
+
+</body>
+</html>
+
